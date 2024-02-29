@@ -1,6 +1,7 @@
 .container {
   max-width: 1366px;
   width: 100%;
+  padding: 12px;
   margin: auto;
 }
 
@@ -34,9 +35,6 @@ header {
   padding: 40px 0;
   width: 100%;
   margin: 0 auto;
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
 }
 
 header .container {
@@ -47,7 +45,6 @@ header .container {
 
 header nav ul {
   display: flex;
-  /* align-items: center; */
   gap: 30px;
 }
 
