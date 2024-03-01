@@ -73,6 +73,10 @@ document.addEventListener("DOMContentLoaded", function () {
       glide.go(">");
   });
 
+  document.querySelector(".glide__arrow--prev").addEventListener("click", function () {
+    glide.go("<");
+});
+
   function scrollToTop() {
       window.scrollTo({
           top:100,

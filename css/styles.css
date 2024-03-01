@@ -236,7 +236,7 @@ footer {
   padding-left: 5%;
 }
 
-.glide__arrow {
+.glide__arrows {
   width: 70px;
   height: 40px;
   border-radius: 20px;
@@ -245,10 +245,13 @@ footer {
   margin-top: 32px;
   position: relative;
   cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 4px;
 
-  img {
-    position: absolute;
-    top: 0;
+  button {
+    border: 0;
+    background-color: transparent;
   }
 }
 
